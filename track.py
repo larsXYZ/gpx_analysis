@@ -4,7 +4,7 @@ import numpy as np
 import gpxpy
 import os
 
-target_folder = r"C:\Users\thehu\Documents\gpx_analysis\gpx_all"
+target_folder = r"gpx/"
 file_paths = [target_folder+"/"+f for f in os.listdir(target_folder) if os.path.isfile(os.path.join(target_folder, f))]
 
 trajs = {}

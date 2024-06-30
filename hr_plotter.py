@@ -142,7 +142,7 @@ class TrainingData:
         return output
 
 
-target_folder = r"C:\Users\thehu\Documents\gpx_analysis\gpx"
+target_folder = r"gpx/"
 file_paths = [target_folder+"/"+f for f in os.listdir(target_folder) if os.path.isfile(os.path.join(target_folder, f))]
 file_paths = [path for path in file_paths if "RUNNING" in path]
 
