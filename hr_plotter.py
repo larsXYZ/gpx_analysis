@@ -198,7 +198,8 @@ for training in trainings:
 
 
 #For use later in plotting
-months_for_plotting = [(2023, 12), (2024,1), (2024, 2), (2024, 3), (2024, 4), (2024, 5), (2024, 6)]
+months_for_plotting = [(2023, 12), (2024,1), (2024, 2), (2024, 3), (2024, 4), 
+                       (2024, 5), (2024, 6), (2024, 7), (2024, 8), (2024, 9)]
 
 #Heartrate and pace relationship
 max_speed = kph2mps(15)
